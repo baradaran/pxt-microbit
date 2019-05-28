@@ -196,7 +196,8 @@ namespace music {
     //% useEnumVal=1
     export function playTone(frequency: number, ms: number): void {
         if (_playTone) _playTone(frequency, ms);
-        else pins.analogPitch(frequency, ms);
+        else speakerPlayTone(frequency, ms);
+        //else pins.analogPitch(frequency, ms);
     }
 
     /**
