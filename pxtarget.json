@@ -233,10 +233,9 @@
     "compileService": {
         "yottaTarget": "bbc-microbit-classic-gcc",
         "yottaCorePackage": "microbit",
-        "githubCorePackage": "lancaster-university/microbit",
-        "gittag": "pxtgc-0",
-        "serviceId": "microbit",
-        "dockerImage": "pext/yotta:latest"
+        "githubCorePackage": "baradaran/microbit",
+        "gittag": "foldio",
+        "serviceId": "microbit"
     },
     "serial": {
         "nameFilter": "^(mbed Serial Port|DAPLink CMSIS-DAP)",
